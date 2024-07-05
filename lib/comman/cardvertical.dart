@@ -7,7 +7,7 @@ import 'package:iconsax/iconsax.dart';
 import 'package:userui/comman/roundedimage.dart';
 import 'package:userui/comman/sizes.dart';
 import '../containers/roundedcontainers.dart';
-import '../features/emptyscreen.dart';
+import '../features/screens/tarfficfine.dart';
 import 'colors.dart';
 import 'helperFunctions.dart';
 
@@ -19,7 +19,7 @@ class Cardvertical extends StatelessWidget {
   Widget build(BuildContext context) {
     final dark = HelperFunctions.isDarkMode(context);
     return GestureDetector(
-onTap:  () => Get.to(()=> EmptyScreen()),
+
       child: Container(
 
         width: 100,
